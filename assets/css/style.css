@@ -43,10 +43,13 @@ a {
 /* ===Header=== */
 .header {
     background: #fffcf4;
+    position: sticky;
+    top: -28px;
 }
 
 .header .body {
     display: flex;
+    align-items: center;
 }
 
 .header .body ul {
@@ -61,7 +64,7 @@ a {
 }
 
 .header .content {
-    padding: 36px 0 65px;
+    padding: 36px 0;
 }
 
 .header .navbar .active {
@@ -75,7 +78,6 @@ a {
     line-height: 28px;
     letter-spacing: 0%;
     color: #5f5b53;
-    padding: 8px 21px;
 }
 
 .header .navbar .active a:hover {
@@ -89,7 +91,7 @@ a {
     display: block;
     width: 12px;
     height: 2px;
-    left: 21px;
+    left: 0px;
     bottom: 6px;
     border-radius: 1px;
     background: #171100;

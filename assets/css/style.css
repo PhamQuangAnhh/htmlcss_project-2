@@ -10,3 +10,95 @@ body {
 * {
     box-sizing: border-box;
 }
+
+/* === Common === */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 118px;
+    padding: 0 21px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+    background: #171100;
+    border-radius: 24.5px;
+}
+
+.btn:hover {
+    background: #ffb900;
+}
+
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+/* ===Header=== */
+.header {
+    background: #fffcf4;
+}
+
+.header .body {
+    display: flex;
+}
+
+.header .body ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .body .navbar {
+    display: flex;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+.header .content {
+    padding: 36px 0 65px;
+}
+
+.header .navbar .active {
+    margin-left: 40px;
+}
+
+.header .navbar .active a {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.6rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #5f5b53;
+    padding: 8px 21px;
+}
+
+.header .navbar .active a:hover {
+    color: #171100;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .navbar .active a::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 12px;
+    height: 2px;
+    left: 21px;
+    bottom: 6px;
+    border-radius: 1px;
+    background: #171100;
+}
+
+.header .action .btn {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.6rem;
+    letter-spacing: 0%;
+    color: #ffffff;
+}

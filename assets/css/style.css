@@ -45,6 +45,7 @@ a {
     background: #fffcf4;
     position: sticky;
     top: -28px;
+    z-index: 1;
 }
 
 .header .body {
@@ -253,4 +254,157 @@ a {
     letter-spacing: 0%;
     color: #171100;
     padding-right: 8px;
+}
+
+/* ===Popular Courses */
+.popular-courses {
+    margin-top: 200px;
+}
+
+.popular-courses .row-popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-courses .row-popular .title {
+    width: 458px;
+    height: 124px;
+}
+
+.popular-courses .row-popular .title .sub-title {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 3.8rem;
+    line-height: 48px;
+    letter-spacing: -2%;
+    color: #171100;
+}
+
+.popular-courses .row-popular .title .desc {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.8rem;
+    letter-spacing: 0%;
+    line-height: 30px;
+    color: #5f5b53;
+    margin-top: 16px;
+}
+
+.popular-courses .row-popular .icon-arrow {
+    display: flex;
+    gap: 18px;
+}
+
+.popular-courses .row-popular .icon-arrow .arrow {
+    color: #ffb900;
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    border: 1px solid #ffb900;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.popular-courses .row-popular .icon-arrow .arrow:hover {
+    color: #ffffff;
+    background: #ffb900;
+}
+
+.popular-courses .course {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-courses .course .item {
+    display: block;
+    height: 466px;
+    width: 370px;
+    border: 1px solid #e2dfda;
+    border-radius: 12px;
+}
+
+.popular-courses .course .item .course-img {
+    width: 368px;
+    height: 278px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+.popular-courses .course .item .course-stats {
+    padding: 16px 22px 22px;
+}
+
+.popular-courses .course .item .course-stats .row-course {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-courses .course .item .name-course {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.8rem;
+    letter-spacing: 0%;
+    color: #171100;
+}
+
+.popular-courses .course .item .vote {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5px;
+}
+
+.popular-courses .course .item .vote .mark {
+    font-weight: 300;
+    font-style: Regular;
+    font-size: 1.7rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #fea31b;
+}
+
+.popular-courses .course .item .course-stats .desc {
+    margin-top: 7px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.4rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #5f5b53;
+}
+
+.popular-courses .course .item .course-stats .course-cost {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-courses .course .item .course-stats .course-cost .cost {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.8rem;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #171100;
+}
+
+.popular-courses .course .item .course-stats .course-cost .btn {
+    border-radius: 25px;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.4rem;
+    letter-spacing: 0%;
+}
+
+.popular-courses .course .item:hover {
+    box-shadow: 0px 18px 36px 0px #0000000d;
+    border-color: #ffffff;
 }
